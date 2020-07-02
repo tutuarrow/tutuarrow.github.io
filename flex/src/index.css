@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+.MuiDrawer-root {
+  top: 64px !important;
+  left: auto !important;
+}
+.MuiDrawer-root .MuiBackdrop-root {
+  display: none;
+}
+.MuiDrawer-paper {
+  top: 64px !important;
+  width: 20%;
+  height: calc(100% - 72px) !important;
+  background-color: #33475b !important;
+}
+.MuiDrawer-paper .MuiListItem-root {
+  color: #ffffff;
+}
+.MuiDrawer-paper li {
+  color: #ffffff;
+  background-color: #33475b;
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+.MuiTouchRipple-root {
+  pointer-events: inherit !important;
+}
